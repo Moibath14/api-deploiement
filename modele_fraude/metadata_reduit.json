@@ -1,0 +1,25 @@
+{
+  "nom_modele": "HGB_Reduit_6_variables",
+  "date_entrainement": "2026-09-28T09:32:09.904444",
+  "n_lignes_train": 1178155,
+  "n_lignes_test": 294539,
+  "n_features": 6,
+  "seuil_optimal": 0.8219836193299366,
+  "metriques_test": {
+    "Accuracy": 0.9412403790329973,
+    "F1-Score": 0.3945425922686724,
+    "Recall": 0.38391884531590414,
+    "Precision": 0.4057710297186443,
+    "ROC-AUC": 0.8158026910887117,
+    "PR-AUC": 0.3773955054545764
+  },
+  "features": [
+    "Account Age Days",
+    "Transaction Amount",
+    "Transaction Hour",
+    "amount_per_account_day",
+    "Device Used_mobile",
+    "Payment Method_credit card"
+  ],
+  "version": "2.0.0-reduit"
+}
